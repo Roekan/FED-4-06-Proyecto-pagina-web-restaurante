@@ -11,7 +11,7 @@
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
 
@@ -75,11 +75,136 @@
       </div>
     </div>
   </div>
+
+
 <!--INFO-->
-<main id="maincontent" class="page-main"> <a id="contentarea" tabindex="-1"></a><div class="page messages" style="display: none;"> <div data-placeholder="messages"></div> <div data-bind="scope: 'messages'"><!-- ko if: cookieMessages && cookieMessages.length > 0 --><!-- /ko --><!-- ko if: messages().messages && messages().messages.length > 0 --><!-- /ko --></div></div><div class="columns"><div class="column main"> <div class="contacto-content"><div class="col col1" style="background-image:url(https://www.rodilla.es/static/version1683581334/frontend/Rodilla/Rodilla_Stratesys/es_ES/Stratesys_Cms/images/contacto/contacto-left.jpg)"></div><div class="col col2"><div class="text-block"><h5 class="subtitle">TU OPINIÓN ES IMPORTANTE</h5><h3 class="title">Contacta con nosotros</h3><p class="text">¿Alguna duda o sugerencia? ¿Quieres saber más de Rodilla? Si tienes cualquier comentario para nosotros cuéntanoslo y nos pondremos en contacto contigo a la mayor brevedad, estaremos encantados de recibir tu información.</p></div><div class="form-content"><form class="contact form" x="" id="form-validate" method="post" data-hasrequired="* Campos obligatorios" action="https://www.rodilla.es/cmsCustom/email/contacto/" novalidate="novalidate"><div class="col col1"><h4 class="title">Información de contacto</h4><fieldset class="fieldset"><div class="field required"><div class="control"><input type="text" name="name" id="name" value="" title="Nombre" class="input-text input-form" placeholder="Nombre *" data-validate="{required:true,'validate-text-only':true}" aria-required="true"></div></div><div class="field"><div class="control"><input type="text" name="lastname" id="lastname" value="" title="Apellidos" class="input-text input-form" placeholder="Apellidos *" data-validate="{required:true,'validate-text-only':true}"></div></div><div class="field required"><div class="control"><input type="email" name="email" id="email_address" value="" title="Correo electrónico" class="input-text input-form" placeholder="Correo electrónico *" data-validate="{required:true, 'validate-email':true}" aria-required="true"></div></div><div class="field"><div class="control"><input type="tel" name="telephone" id="telephone" value="" title="Teléfono" class="input-text input-form" placeholder="Teléfono *" data-validate="{required:true,'validate-telephone':true}"></div></div></fieldset></div><div class="col col2"><h4 class="title">Consulta relacionada con</h4><fieldset class="fieldset"><div class="field"><div class="radio-values"><div class="value"><input type="radio" id="query_restaurant" name="query_choose" value="Restaurante" title="Restaurante"><label for="query_restaurant">Restaurante</label></div><div class="value"><input type="radio" id="query_orders" name="query_choose" value="Pedido" title="Pedidos"><label for="query_orders">Pedidos</label></div><div class="value"><input type="radio" id="query_others" name="query_choose" value="Otros" title="Otros"><label for="query_others">Otros</label></div></div></div><div class="field"><div class="control"><input type="text" name="restaurant" id="restaurant" value="" title="Restaurante visitado" class="input-text input-form" placeholder="Restaurante visitado"></div></div><!-- TO DO validation date--><div class="date_fields"><div class="field required"><div class="control"><input type="number" name="date_day" id="date_day" value="" title="Día" class="input-text input-form date_day" placeholder="Día *" data-validate="{required:true,'validate-day':true}" aria-required="true"></div></div><div class="field required"><div class="control"><input type="number" name="date_month" id="date_month" value="" title="Mes" class="input-text input-form date_month" placeholder="Mes *" data-validate="{required:true,'validate-month':true}" aria-required="true"></div></div><div class="field required"><div class="control"><input type="number" name="date_year" id="date_year" value="" title="Año" class="input-text input-form day_year" placeholder="Año *" data-validate="{required:true,'validate-year':true}" aria-required="true"></div></div></div></fieldset></div><div class="col col3"><h4 class="title">Motivo *</h4><fieldset class="fieldset"><div class="field required"><select name="motive" id="motive" data-validate="{required:true}"><option selected="" disabled="">Selecciona uno</option><option value="RO_Attention">Asistencia al cliente</option><option value="RO_Product">Producto</option><option value="RO_Installations">Instalaciones</option><option value="RO_Hygiene">Higiene</option><option value="RO_Others">Otros</option><option value="RO_App_Web">App / Web</option></select></div><div class="field required"><div class="control"><textarea name="comments" id="comments" placeholder="Comentarios *" cols="30" rows="10" data-validate="{required:true}" aria-required="true"></textarea></div></div><div class="field required legal"><div class="basic-info contact"><p class="clickable"><span class="changeicon icon icon-plus"></span>Información básica de protección de datos</p><div class="content" style="display: none;"><p>Responsable: <strong>RODILLA SANCHEZ, S.L</strong> <a target="_blank" href="https://www.rodilla.es/politica-de-privacidad/">(+info)</a></p><p>Finalidad: Gestionar petición realizada por el interesado</p><p>Legitimación: Consentimiento del interesado</p><p>Derechos: Acceder, rectificar y suprimir los datos así como se explica en la información adicional <a target="_blank" href="https://www.rodilla.es/politica-de-privacidad/">(+info)</a></p></div></div><div class="control acceptance"><input type="checkbox" name="aceptance" id="aceptance" data-validate="{required:true}" aria-required="true"><label for="aceptance">He leído la información básica sobre Proteccción de Datos Personales de RODILLA SÁNCHEZ, S.L.</label></div></div></fieldset></div> <div class="actions-toolbar"><div class="primary"><button type="submit" title="Submit" class="btn-form action submit primary"><span>Enviar</span></button></div></div><input type="hidden" class="invisible_token" name="invisible_token" value="03AL8dmw-hHuVJNxZ2EBF27DoW7UcAqZdftC6fcIH6j-poDbjO8aoO2jhg9THU_V4UPG6p-TOwi2HWJSYX0Q-OU7hJkCrttZIK9r8uy_bxwYH-TdDB6DqC3OV7BiLvOTx7oPYxEnzyUlvriVsTT9raHSDwQ6I8n7mURi6uQaPKSpvnD_n7MdB4zFrCuOQ_9WCU_YDN6blhv4LsnpASJuj_zxlV0HLRlRmcpT6ztsx0nl_lUSA6ggsaVJM-1s1B_to-sFbIZKa-deSR-8ioHgvscI41yMMj3TSKfXeYPr_3IE1-EqiQadODdutK79xV3s2CWtE5Sc4lbiPIvGTF38WR72p-FyqJy5rawn-Duz_Y37lm-B2qfEy220ZwL0jNVw0CKCeSpz5-PdJk56Ls2NW-jIYpSmA1jhnDO7-VvMC5mCjwBtO02qu_K7CcmgWS4xYaSMu1scGibEHC1lNL4gZ3HIkrsqaRc2QY3TJlL9QoWynnhXgSCGfU9dp-NelqppejiBJJPuIY_oUl1j9cChvzhNQ33g2iZ2f1wiFXJZ-eyUxOd9S7w7y75MLMrfbVg47uhJjmWE-o7nthVvftbV4uEBwiVyoRXZFAFwYrmt6dp9wuqnccJm8H8piIPB-02KpIy4pFv3m_Tbxi"></form></div></div></div><input name="form_key" type="hidden" value="NyendNQzVvqPsZ9A"> <div id="authenticationPopup" data-bind="scope:'authenticationPopup'" style="display: none;"><!-- ko template: getTemplate() -->
 
 
-<!-- /ko --></div> <div id="custom-provider" data-bind="scope:'customConfig'"><!-- ko template: getTemplate() --><!-- /ko --></div></div></div></main>
+
+<!--ORDER-Type-->
+  <div class="container-fluid p-0">
+    <img class="banner-img" src="./images/cabecera.jpg" alt="">
+  </div>
+  <div class="container box-order-type">
+    <div class="row d-flex align-items-center justify-content-center ">
+      <div class="col-8 mb-2 p-3 rounded-2 bg-order-type">
+        <div class="row d-flex align-items-center justify-content-center">
+          <div class="col d-flex align-items-center justify-content-center">
+            <h2 class="fw-bold green-pack-menu">¿Que te apetece?</h2>
+          </div>
+        </div>
+        <div class="row d-flex align-items-center justify-content-around mt-3 py-3">
+          <div class="col-11">
+            <div class="row">
+              <div class="col-4 d-flex align-items-center justify-content-center ">
+                <div class="row py-2 px-5 rounded-pill button-order-type">
+                  <div class="col text-order-type fw-bold">
+                    Domicilio
+                  </div>
+                </div>
+              </div>
+              <div class="col-4 d-flex align-items-center justify-content-center ">
+                <div class="row py-2 px-5 rounded-pill button-order-type">
+                  <div class="col text-order-type fw-bold">
+                    Recoger
+                  </div>
+                </div>
+              </div>
+              <div class="col-4 d-flex align-items-center justify-content-center ">
+                <div class="row py-2 px-5 rounded-pill button-order-type">
+                  <div class="col text-order-type fw-bold">
+                    Comer en Rodilla
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--END ORDER-Type-->
+<!--PACK-Menu-->
+  <!--PACK-Menu-text-->
+<div class="container mt-5">
+  <div class="row d-flex align-items-center justify-content-center ">
+    <div class="col-8 mb-2 mt-5 p-3">
+      <div class="row d-flex align-items-center justify-content-center">
+        <div class="col d-flex align-items-center justify-content-center">
+          <h2 class="fw-bold green">Pack</h2>
+        </div>
+      </div>
+      <div class="row d-flex align-items-center justify-content-center">
+        <div class="col d-flex align-items-center justify-content-center">
+          <p class="subtitle-pack-menu green">Nuestra recomendación es de 4 sandwiches por persona ¿Te atreves con más?</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <!--END PACK-Menu-text-->
+
+  <!--PACK-Menu-boxes-->
+  <div class="row d-flex align-items-center justify-content-center ">
+    <div class="col-10 mb-2 p-3 rounded-2 ">
+      <div class="row d-flex align-items-center justify-content-around mt-3 py-3">
+        <div class="col-3">
+          <div class="row  rounded-3 p-0 box-product">
+            <div class="col">
+              <div class="row  pb-2 px-4 ">
+                <div class="col d-flex align-items-center justify-content-center">
+                  <img class="img-fluid" src="./images/pack-30-sand-frios.jpg" alt="">
+                </div>
+              </div>
+              <div class="row  py-2 px-5 ">
+                <div class="col d-flex align-items-center justify-content-center fw-bold green">
+                  PACK 30 SAND FRÍOS
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 ">
+          <div class="row  rounded-3 p-0 box-product">
+            <div class="col">
+              <div class="row  pb-2 px-4 ">
+                <div class="col d-flex align-items-center justify-content-center">
+                  <img class="img-fluid" src="./images/pack-30-sand-frios.jpg" alt="">
+                </div>
+              </div>
+              <div class="row  py-2 px-5 ">
+                <div class="col d-flex align-items-center justify-content-center fw-bold green">
+                  PACK 30 SAND FRÍOS
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 ">
+          <div class="row  rounded-3 p-0 box-product">
+            <div class="col">
+              <div class="row  pb-2 px-4 ">
+                <div class="col d-flex align-items-center justify-content-center">
+                  <img class="img-fluid" src="./images/pack-30-sand-frios.jpg" alt="">
+                </div>
+              </div>
+              <div class="row  py-2 px-5 ">
+                <div class="col d-flex align-items-center justify-content-center fw-bold green">
+                  PACK 30 SAND FRÍOS
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+  <!--END PACK-Menu-boxes-->
+
+<!--END PACK-Menu-->
+
 <!--END INFO-->
 
 

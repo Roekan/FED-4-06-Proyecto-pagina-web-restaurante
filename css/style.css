@@ -2,8 +2,9 @@
   font-size: 16px;
 }
 
+
 .logo-rodilla{
-  height: 1.4rem;
+  height: 1.2rem;
 }
 
 
@@ -56,6 +57,51 @@ box-shadow:
   height: 100vh;
 }
 
+
+.banner-img{
+width: 100%;
+}
+
+.box-order-type{
+margin-top:-5rem;
+
+}
+
+.bg-order-type{
+  background-color:#fff;
+  box-shadow: 0 2px 40px 0 rgba(124,120,111,.16);
+}
+.green-pack-menu{
+  color:#3e3e3e;
+  }
+
+.green{
+  color:#4f635b;
+}
+
+
+.button-order-type{
+  background-color: #4f635b;
+  box-shadow: 0 2px 16px 0 rgba(79,99,91,0.4);
+}
+
+.text-order-type{
+  color: #fff;
+  font-size:0.9rem;
+}
+
+
+.subtitle-pack-menu{
+  font-size:1.1rem;
+}
+
+
+.box-product{
+box-shadow: 0 0 40px 0 rgba(124,120,111,.16);;
+}
+
+
+/*Footer*/
 .menu-footer{
   font-size:0.8rem;
   font-weight: bold;

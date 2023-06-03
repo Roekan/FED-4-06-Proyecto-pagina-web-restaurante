@@ -8,12 +8,9 @@
     <li><a href="#deploy">Deploy</a></li>
     <li><a href="#stack">Stack</a></li>
     <li><a href="#vistas">Vistas</a></li>
-    <li><a href="#futuras-funcionalidades">Futuras funcionalidades</a></li>
-    <li><a href="#contribuciones">Contribuciones</a></li>
     <li><a href="#licencia">Licencia</a></li>
     <li><a href="#webgrafia">Webgrafia</a></li>
-    <li><a href="#desarrollo">Desarrollo</a></li>
-    <li><a href="#agradecimientos">Agradecimientos</a></li>
+    <li><a href="#lenguajes">Lenguajes</a></li>
     <li><a href="#contacto">Contacto</a></li>
   </ol>
 </details>
@@ -44,9 +41,52 @@ Decidí crear una copia del establecimiento RODILLA para este ejercicio ya que e
 
 
  ## Elementos de bootstrap
+
+Se han añadido elementos de bootstrap modificados para la web.
+
 Nav
-<img src="./images/landing.png">  
+
+Bootstrap:
+<img src="./images/nav-bootstrap.png">  
+Web:
+<img src="./images/nav-rodilla.png">  
+
+
 Accordion
-<img src="./images/register.png">
+
+Bootstrap:
+<img src="./images/accordion-bootstrap.png">  
+Web:
+<img src="./images/accordion-rodilla.png"> 
+
 Modal
-<img src="./images/login.png">
+
+Bootstrap:
+<img src="./images/modal-bootstrap.png">  
+Web:
+<img src="./images/modal-rodilla.png"> 
+
+## Licencia
+Este proyecto se encuentra bajo licencia de Álvaro Fernández Arribas
+
+## Webgrafia:
+Para conseguir mi objetivo he recopilado información de:
+
+- <a href="https://www.rodilla.es/"><strong>Obtener imágenes de productos </strong></a>
+
+
+Otras webs utilizadas en el proyecto:
+- <a href="https://pickcoloronline.com/"><strong>Obtener códigos de color </strong></a>
+- <a href="https://www.iconhunt.site/"><strong>Obteción de iconos </strong></a>
+- <a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/"><strong>Información de bootstrap </strong></a>
+
+## Lenguajes:
+
+HTML - Para la maquetación general de la switch
+CSS - Para los estilos de HTML
+
+
+## Contacto
+
+<a href = "mailto:roekan03@gmail.com"><img src="https://img.shields.io/badge/Gmail-C6362C?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+<a href="https://es.linkedin.com/in/alvaro-fern%C3%A1ndez-arribas-120963223" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 

@@ -29,13 +29,13 @@ Decidí crear una copia del establecimiento RODILLA para este ejercicio ya que e
 ## Stack
 <div align="center">
 <a href="https://lenguajehtml.com/">
-    <img src= "https://roekan.github.io/FED-4-06-Proyecto-pagina-web-restaurante/images/html-logo.png"/>
+    <img height="50px" width="auto" src= "https://roekan.github.io/FED-4-06-Proyecto-pagina-web-restaurante/images/html-logo.png"/>
 </a>
 <a href="https://lenguajecss.com/">
-    <img src= "https://roekan.github.io/FED-4-06-Proyecto-pagina-web-restaurante/images/bootstrap-logo.png"/>
+    <img height="50px" width="auto" src= "https://roekan.github.io/FED-4-06-Proyecto-pagina-web-restaurante/images/bootstrap-logo.png"/>
 </a>
 <a href="https://getbootstrap.com/">
-    <img src= "https://roekan.github.io/FED-4-06-Proyecto-pagina-web-restaurante/images/css-logo.png"/>
+    <img height="50px" width="auto" src= "https://roekan.github.io/FED-4-06-Proyecto-pagina-web-restaurante/images/css-logo.png"/>
 </a>
  </div>
 

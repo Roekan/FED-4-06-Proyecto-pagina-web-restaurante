@@ -82,7 +82,8 @@ Otras webs utilizadas en el proyecto:
 
 ## Lenguajes:
 
-HTML - Para la maquetación general de la switch
+HTML - Para la maquetación general de la web
+BOOTSTRAP - Para la maquetación de algunos elementos
 CSS - Para los estilos de HTML
 
 

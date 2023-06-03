@@ -44,27 +44,27 @@ Decidí crear una copia del establecimiento RODILLA para este ejercicio ya que e
 
 Se han añadido elementos de bootstrap modificados para la web.
 
-Nav
+Nav<br>
 
-Bootstrap:
-<img src="./images/nav-bootstrap.png">  
-Web:
-<img src="./images/nav-rodilla.png">  
+Bootstrap:<br>
+<img src="./images/nav-bootstrap.png"><br>
+Web:<br>
+<img src="./images/nav-rodilla.png"><br>
 
 
-Accordion
+Accordion<br>
 
-Bootstrap:
-<img src="./images/accordion-bootstrap.png">  
-Web:
-<img src="./images/accordion-rodilla.png"> 
+Bootstrap:<br>
+<img src="./images/accordion-bootstrap.png">  <br>
+Web:<br>
+<img src="./images/accordion-rodilla.png"> <br>
 
-Modal
+Modal<br>
 
-Bootstrap:
-<img src="./images/modal-bootstrap.png">  
-Web:
-<img src="./images/modal-rodilla.png"> 
+Bootstrap:<br>
+<img src="./images/modal-bootstrap.png">  <br>
+Web:<br>
+<img src="./images/modal-rodilla.png"> <br>
 
 ## Licencia
 Este proyecto se encuentra bajo licencia de Álvaro Fernández Arribas

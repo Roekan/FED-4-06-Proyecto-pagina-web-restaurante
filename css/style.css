@@ -2,7 +2,18 @@
   font-size: 16px;
 }
 
+html{
+  scroll-behavior: smooth;
+}
 
+#pack,#combos,#desayunos-meriendas,#carta,#sin-gluten{
+  scroll-margin-top:100px;
+}
+
+
+a{
+  text-decoration: none;
+}
 
 
 .logo-rodilla{
@@ -56,8 +67,11 @@ fill:#4f635b;
 
 .text-sub-nav{
   font-size:0.9rem;
-  color:#928C63;
   font-weight: bold;
+}
+
+.text-sub-nav a{
+  color:#928C63;
 }
 
 .color-border-nav2{
@@ -186,6 +200,11 @@ color:#928c63;
   color:#928C63;
   
 }
+
+.title-menu-footer{
+  color:#928C63;
+}
+
 
 .sub-menu-footer a{
   font-size:0.7rem;
